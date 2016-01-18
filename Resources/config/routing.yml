@@ -1,0 +1,3 @@
+jokari4242_easy_post_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: jokari4242EasyPostBundle:Default:index }

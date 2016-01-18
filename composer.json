@@ -1,0 +1,22 @@
+{
+  "name": "jokari4242/easy-post-bundle",
+  "type": "symfony-bundle",
+  "description": "Easypost Service with useful functions to manage your shipment",
+  "keywords": ["Shipment", "Easypost API"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antoine MARANDON",
+      "email": "amarandon2@gmail.com",
+      "homepage": "http://github.com/jokari4242"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "symfony/framework-bundle": "~2.3",
+    "easypost/easypost-php": "~3.0"
+  },
+  "autoload": {
+    "psr-4": { "jokari4242\\EasyPostBundle\\": "" }
+  }
+}
